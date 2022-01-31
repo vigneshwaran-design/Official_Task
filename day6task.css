@@ -1,0 +1,54 @@
+body{
+    background-color: whitesmoke;
+    /* text-align: center; */
+}
+/* form{
+    display:table;
+} */
+h1{
+    text-align: center;
+}
+input {
+    display:block;
+    width: 50%;
+    padding:1%;
+    margin: 1% 0 0 8%;
+}
+
+label{
+    margin: 0% 0 0 5%;
+}
+
+textarea{
+    display: block;
+    margin: 1% 0 0 8%;
+    width: 50%;
+    padding:1.5%;
+    
+}
+
+button{
+    display: inline-block;
+    margin: 5% 0 0 30%;
+    padding: 1% 3%;
+    border-radius: 10%;
+    color: black;
+    background-color: white;
+}
+   
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+input[type="radio"]{
+    display: inline;
+    margin:1% 0 2% 0;
+    width:4%;
+    padding:0%;
+    
+}
+#salaried,#ownbusiness{
+    margin-left:-1%;
+}

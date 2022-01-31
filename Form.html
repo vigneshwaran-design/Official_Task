@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="day6task.css">
+    
+</head>
+<body>
+    <h1><mark>HTML &CSS is awesome</mark></h1>
+    <form method="POST"> 
+        <label>Employee Name : </label>
+        <input type="text" name="name" id="name" placeholder="Full_Name" onchange="handleChange(event)" required/>
+        <br>
+        <label>Email_id : </label>
+        <input type="email" name="email_id" id="email_id" placeholder="Email_id" onchange="handleChange(event)" required/>
+        <br>
+        <label>Mobile_number : </label>
+        <input type="text" name="mobile_number" value="91+" id="mobile_number" placeholder="Mobile Number" onchange="handleChange(event)"  required/>
+        <br>
+        <label>Age : </label>
+        <input type="number" name="age" placeholder="Your Present Age" onchange="handleChange(event)" required>
+        <br>
+        <label>City : </label>
+        <input type="text" name="city" id="city"  placeholder="Current City" onchange="handleChange(event)" required/>
+        <br>
+        <label>Employee Type: </label>
+        <input type="radio" name="emptype" id="emptype"  value="Salaried" placeholder="Employee Type" onchange="handleChange(event)" required/>
+        <label id="salaried">Salaried</label>
+        <input type="radio" name="emptype" id="emptype"   onchange="handleChange(event)" required/>
+        <label id="ownbusiness">Own Business</label>
+        <br>
+        <label>Address : </label>
+        <textarea name="address" placeholder="Current Address"  onchange="handleChange(event)" ></textarea>
+        <br>
+
+
+       <button  onclick="handleSubmit()" >Submit</button>
+     </form>
+
+    <script src="day6task.js"></script>
+</body>
+
+
+</html>

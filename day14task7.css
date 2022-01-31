@@ -1,0 +1,44 @@
+body{
+    background-color:black;
+    /* color:black; */
+}
+
+.container{
+    border-style: solid;
+    border: 1%;
+    border-color:red;
+    padding:1%;
+    margin:30% ;
+    max-width: max-content;
+    display:flex;
+    flex-direction: row;
+    justify-content:center; 
+    background-color:white;
+
+}
+
+div,div>input{
+    padding:0.5 rem;
+}
+
+h1{
+    background-color:red;
+    color:white;
+    font-family: cursive;
+    margin:auto;
+    padding:0.5rem;
+    display:flex;
+    justify-content:center;
+}
+
+form{
+    background-color:whitesmoke;
+}
+
+#l1{
+    margin-top:1%;
+    min-width: 50%;
+}
+#l2{
+    min-width: 100%;
+}
